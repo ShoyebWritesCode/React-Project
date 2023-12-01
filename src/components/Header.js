@@ -11,11 +11,6 @@ const Header = () => {
           <div className="brand-line">PRODUCTION</div>
           <div className="brand-line">STUDIO</div>
         </div>
-        <div className="center-text">
-          <div className="center-line .title-line1">Movie</div>
-          <div className="center-line">Production</div>
-          <div className="center-line">Studio</div>
-        </div>
         <nav>
           <ul>
             <li>
@@ -41,3 +36,12 @@ const Header = () => {
 };
 
 export default Header;
+
+
+
+
+{/* <div className="center-text">
+          <div className="center-line .title-line1">Movie</div>
+          <div className="center-line .title-line2">Production</div>
+          <div className="center-line .title-line3">Studio</div>
+        </div> */}
