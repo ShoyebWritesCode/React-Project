@@ -5,7 +5,7 @@ import Image from "react-bootstrap/Image";
 
 const HeroSection = () => {
   return (
-    <div className="center-text">
+    <div className="center-text hero-container">
     <div className="upper-segment">
       <div className="hero-segment1">
         <div className="hero-image .hero-image1">

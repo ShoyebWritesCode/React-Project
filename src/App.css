@@ -115,6 +115,11 @@ img {
 
 .upper-segment {
   padding-left: 10vw;
+  /* padding-bottom: 10vh; */
+}
+
+.hero-container{
+  padding-bottom: 15vh;
 }
 
 .center-line .title-line1 {
@@ -234,4 +239,117 @@ footer {
   border: 1px solid #ccc;
   border-radius: 5px;
   box-sizing: border-box;
+}
+
+
+/* Main Section CSS begins here */
+
+.main-container{
+  padding: 5vh 3vw 3vh 10vw;
+  background-color: #ffffff;
+}
+
+.main-segment1{
+  padding: 5vh 3vw 8vh 3vw;
+}
+
+.main-subsegment2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10vh;
+}
+
+.description{
+  color: #0f0f0f;
+  font-family: sans-serif;
+}
+
+.info-title{
+  color: #000000;
+  font-size: 40px; 
+  white-space: pre-line;
+  text-transform: uppercase;
+  /* font-weight: 550; */
+  /* width: 25vw;  */
+}
+
+.info-index{
+  color: #8c8c8c;
+}
+
+.segment-title {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 10vh;
+  color: #000000;
+  font-family: 'Inter', Sans-serif;
+  font-size: 7vh;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  width: 40vw;
+}
+
+.info-box{
+  display: flex;
+  flex-direction: column;
+}
+
+.info-box > div {
+  margin-bottom: 5vh;
+}
+
+
+.image-container{
+  padding: 0vh 3vw 10vh 0vw;
+}
+
+.image-flex{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image-flex > img{
+  margin-top: 0vh;
+}
+
+.left-image{
+  margin-top: 0vh;
+  padding-left: 2vw;
+  padding-top: 9vh;
+  height: 40vh;
+  width: 46vw;
+}
+
+.right-image{
+  margin-top: 0vh;
+  padding-left: 2vw;
+  padding-top: 9vh;
+  height: 60vh;
+  width: 30vw;
+}
+
+.center{
+  align-items: center;
+}
+
+.bottom-text{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-icon{
+  padding: 0vh 0vw 0vh 0.5vw;
+}
+
+
+/* Client segment */
+
+.client-container{
+  background-color: #000000;
+  height: 30vh;
+  width: 80vw;
 }

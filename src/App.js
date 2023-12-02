@@ -3,6 +3,7 @@ import Header from './components/Header';
 import './App.css';
 import HeroSection from './components/HeroSection';
 import Footer from './components/Footer';
+import MainSection from './components/MainSection';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Header />
         <HeroSection />
+        <MainSection />
         <Routes></Routes>
         <Footer />
       </div>

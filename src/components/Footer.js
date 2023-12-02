@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="left-content">
             <div className="name-content">
               <div>
-                <strong>TALKIE</strong>
+                <strong>KAIZEN</strong>
               </div>
               <div>
                 <strong>PRODUCTION</strong>
