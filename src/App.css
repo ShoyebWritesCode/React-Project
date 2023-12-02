@@ -50,10 +50,8 @@ img {
   margin: -21vh 5vw 0vh 15vw;
 }
 
-
-
-.img2{
-  border-radius: 50%; 
+.img2 {
+  border-radius: 50%;
   overflow: hidden;
   object-fit: cover;
   height: 25vh;
@@ -62,14 +60,13 @@ img {
   padding-left: 0vw;
 }
 
-.img3{
+.img3 {
   margin: 0vh;
   padding-left: 2vw;
   padding-top: 9vh;
   height: 30vh;
   width: 20vw;
 }
-
 
 .header-container {
   display: flex;
@@ -82,8 +79,8 @@ img {
   display: flex;
   flex-direction: column;
   padding-bottom: 18vh;
-  color: #FFFFFF;
-  font-family: "Inter", Sans-serif;
+  color: #ffffff;
+  font-family: 'Inter', Sans-serif;
   font-size: 24px;
   font-weight: 600;
   text-transform: uppercase;
@@ -109,14 +106,14 @@ img {
   font-size: 16vh;
   margin-right: 0px;
   padding: 0px;
-  color: #FFFFFF;
-  font-family: "Inter", Sans-serif;
+  color: #ffffff;
+  font-family: 'Inter', Sans-serif;
   /* font-size: 144px; */
   font-weight: 600;
   line-height: 2vh;
 }
 
-.upper-segment{
+.upper-segment {
   padding-left: 10vw;
 }
 
@@ -124,32 +121,31 @@ img {
   align-items: end;
 }
 
-.subtitle-line1{
+.subtitle-line1 {
   font-size: 3vh;
-  color: #FFFFFF;
-  font-family: "Inter", Sans-serif;
+  color: #ffffff;
+  font-family: 'Inter', Sans-serif;
   font-weight: 10;
   display: inline-block;
   width: 20vw;
   margin-right: 10vw;
 }
 
-
-.hero-segment3{
+.hero-segment3 {
   padding: 4vh 0vw 0vh 15vw;
 }
 
- .hero-segment1{
-    display: flex;
-    align-items: baseline;
+.hero-segment1 {
+  display: flex;
+  align-items: baseline;
 }
 
-.hero-segment2{
+.hero-segment2 {
   display: flex;
   align-items: center;
 }
 
-.hero-segment4{
+.hero-segment4 {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -157,12 +153,85 @@ img {
 
 @media (max-width: 500px) {
   .hero-segment4 {
-    flex-direction: column; 
+    flex-direction: column;
     align-items: flex-start;
   }
 
   .subtitle-line1 {
-    width: 100%; 
-    margin-right: 0; 
+    width: 100%;
+    margin-right: 0;
   }
+}
+
+/* Footer CSS from Here */
+footer {
+  font-family: 'Inter', Sans-serif;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+}
+
+.left-section {
+  flex: 1;
+}
+
+.name-content {
+  font-size: 24px;
+  margin-bottom: 2em;
+}
+
+.address-content {
+  margin-bottom: 2em;
+  color: rgb(93, 94, 94);
+}
+
+.contact-content {
+  margin-bottom: 2em;
+  color: rgb(93, 94, 94);
+}
+
+.contact {
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.link-content {
+  font-size: 20px;
+}
+
+.remaining-section {
+  flex: 2;
+}
+
+.question-section {
+  font-size: 46px;
+  margin-bottom: 1em;
+  font-weight: bold;
+}
+
+.chudi {
+  color: #ff9900;
+  font-size: 24px;
+}
+
+.contactus {
+  font-size: 24px;
+}
+
+.email-input-container {
+  background-color: transparent;
+}
+
+.email-input {
+  width: 70%;
+  padding: 1rem;
+  font-size: 16px;
+  opacity: 0.7;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
 }
