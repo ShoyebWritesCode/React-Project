@@ -263,6 +263,7 @@ footer {
 .description{
   color: #0f0f0f;
   font-family: sans-serif;
+  /* padding-left: 10vw; */
 }
 
 .info-title{
@@ -270,9 +271,14 @@ footer {
   font-size: 40px; 
   white-space: pre-line;
   text-transform: uppercase;
+  max-width: 30vw;
+  word-wrap: break-word;
+  padding-right: 10vw;
   /* font-weight: 550; */
   /* width: 25vw;  */
 }
+
+
 
 .info-index{
   color: #8c8c8c;
@@ -294,6 +300,8 @@ footer {
 .info-box{
   display: flex;
   flex-direction: column;
+  padding-left: 10vw;
+  /* text-decoration-color: #000000; */
 }
 
 .info-box > div {
@@ -352,4 +360,98 @@ footer {
   background-color: #000000;
   height: 30vh;
   width: 80vw;
+}
+
+
+/* 2nd subsegment */
+
+.info-box2{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.info-box2 > .description{
+  padding-left: 10vw;
+}
+
+.left-image2{
+  margin-top: 0vh;
+  padding-left: 2vw;
+  padding-top: 9vh;
+  height: 40vh;
+  width: 26vw;
+}
+
+.middle-image{
+  margin-top: 0vh;
+  padding-left: 2vw;
+  padding-top: 9vh;
+  height: 30vh;
+  width: 26vw;
+}
+
+.right-image2{
+  margin-top: 0vh;
+  padding-left: 2vw;
+  padding-top: 9vh;
+  height: 40vh;
+  width: 25vw;
+}
+
+.image-flex2{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.info-title2{
+  color: #000000;
+  font-size: 25px; 
+  white-space: pre-line;
+  text-transform: uppercase;
+  max-width: 30vw;
+  word-wrap: break-word;
+  /* padding-right: 10vw; */
+  /* font-weight: 550; */
+  /* width: 25vw;  */
+}
+
+.bottom-links-container {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  /* margin-right: 10vw; */
+}
+
+.main-subsegment3{
+  padding-bottom: 15vh;
+}
+
+.video-type-icon{
+  color: #000000;
+}
+
+.video-type-title{
+  color: #000000;
+  font-size: 20px; 
+  white-space: pre-line;
+  text-transform: uppercase;
+  max-width: 30vw;
+  word-wrap: break-word;
+  padding-right: 5vw; 
+}
+
+
+.video-type-description{
+  color: #0f0f0f;
+  font-family: sans-serif;
+  /* padding-left: 10vw; */
+}
+
+.video-type-box{
+  display: flex;
+  flex-direction: column;
+  padding-left: 10vw;
+  /* text-decoration-color: #000000; */
 }
